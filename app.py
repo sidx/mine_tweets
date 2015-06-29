@@ -72,6 +72,8 @@ def GenReport(results):
 
 
 	print "######-------REPORTS-------######"
+
+
 	#-----------------UNIQUE NAMES---------------------------------------
 	print "\n----------UNIQUE NAMES----------"
 	uniq_name	= list(set(name))
@@ -95,6 +97,8 @@ def GenReport(results):
 	print "\nSorted Unique Urls:"
 	for url in sorted_uniqUrls:
 		print "{0:20} - {1:3}".format(url[0],url[1])
+
+		
 
 	#-----------------UNIQUE WORDS(bonus 2)---------------------------------------
 	print "\n----------UNIQUE WORDS COUNT----------"
